@@ -12,16 +12,20 @@
 		7E6393702176DA9600E21712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E63936E2176DA9600E21712 /* Main.storyboard */; };
 		7E6393722176DA9800E21712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6393712176DA9800E21712 /* Assets.xcassets */; };
 		7E6393752176DA9800E21712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6393732176DA9800E21712 /* LaunchScreen.storyboard */; };
+		7EC722912182A80F0095F3BC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC722902182A80F0095F3BC /* SignUpViewController.swift */; };
+		7EC722932182B6C50095F3BC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC722922182B6C50095F3BC /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E6393672176DA9600E21712 /* SwiftApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6393672176DA9600E21712 /* DreamTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E63936A2176DA9600E21712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E63936C2176DA9600E21712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E63936F2176DA9600E21712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E6393712176DA9800E21712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E6393742176DA9800E21712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E6393762176DA9800E21712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC722902182A80F0095F3BC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7EC722922182B6C50095F3BC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,7 @@
 		7E63935E2176DA9600E21712 = {
 			isa = PBXGroup;
 			children = (
-				7E6393692176DA9600E21712 /* SwiftApp1 */,
+				7E6393692176DA9600E21712 /* DreamTracker */,
 				7E6393682176DA9600E21712 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +50,32 @@
 		7E6393682176DA9600E21712 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E6393672176DA9600E21712 /* SwiftApp1.app */,
+				7E6393672176DA9600E21712 /* DreamTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7E6393692176DA9600E21712 /* SwiftApp1 */ = {
+		7E6393692176DA9600E21712 /* DreamTracker */ = {
 			isa = PBXGroup;
 			children = (
 				7E63936A2176DA9600E21712 /* AppDelegate.swift */,
+				7EC722902182A80F0095F3BC /* SignUpViewController.swift */,
 				7E63936C2176DA9600E21712 /* ViewController.swift */,
+				7EC722922182B6C50095F3BC /* HomeViewController.swift */,
 				7E63936E2176DA9600E21712 /* Main.storyboard */,
 				7E6393712176DA9800E21712 /* Assets.xcassets */,
 				7E6393732176DA9800E21712 /* LaunchScreen.storyboard */,
 				7E6393762176DA9800E21712 /* Info.plist */,
 			);
-			path = SwiftApp1;
+			path = DreamTracker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E6393662176DA9600E21712 /* SwiftApp1 */ = {
+		7E6393662176DA9600E21712 /* DreamTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E6393792176DA9800E21712 /* Build configuration list for PBXNativeTarget "SwiftApp1" */;
+			buildConfigurationList = 7E6393792176DA9800E21712 /* Build configuration list for PBXNativeTarget "DreamTracker" */;
 			buildPhases = (
 				7E6393632176DA9600E21712 /* Sources */,
 				7E6393642176DA9600E21712 /* Frameworks */,
@@ -79,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftApp1;
+			name = DreamTracker;
 			productName = SwiftApp1;
-			productReference = 7E6393672176DA9600E21712 /* SwiftApp1.app */;
+			productReference = 7E6393672176DA9600E21712 /* DreamTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7E6393622176DA9600E21712 /* Build configuration list for PBXProject "SwiftApp1" */;
+			buildConfigurationList = 7E6393622176DA9600E21712 /* Build configuration list for PBXProject "DreamTracker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E6393662176DA9600E21712 /* SwiftApp1 */,
+				7E6393662176DA9600E21712 /* DreamTracker */,
 			);
 		};
 /* End PBXProject section */
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC722912182A80F0095F3BC /* SignUpViewController.swift in Sources */,
 				7E63936D2176DA9600E21712 /* ViewController.swift in Sources */,
 				7E63936B2176DA9600E21712 /* AppDelegate.swift in Sources */,
+				7EC722932182B6C50095F3BC /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,13 +289,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftApp1/Info.plist;
+				INFOPLIST_FILE = DreamTracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DreamTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -299,13 +307,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftApp1/Info.plist;
+				INFOPLIST_FILE = DreamTracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DreamTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -315,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E6393622176DA9600E21712 /* Build configuration list for PBXProject "SwiftApp1" */ = {
+		7E6393622176DA9600E21712 /* Build configuration list for PBXProject "DreamTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E6393772176DA9800E21712 /* Debug */,
@@ -324,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E6393792176DA9800E21712 /* Build configuration list for PBXNativeTarget "SwiftApp1" */ = {
+		7E6393792176DA9800E21712 /* Build configuration list for PBXNativeTarget "DreamTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E63937A2176DA9800E21712 /* Debug */,

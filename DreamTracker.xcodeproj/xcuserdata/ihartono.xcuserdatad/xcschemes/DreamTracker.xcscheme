@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7E6393662176DA9600E21712"
-               BuildableName = "SwiftApp1.app"
-               BlueprintName = "SwiftApp1"
-               ReferencedContainer = "container:SwiftApp1.xcodeproj">
+               BuildableName = "DreamTracker.app"
+               BlueprintName = "DreamTracker"
+               ReferencedContainer = "container:DreamTracker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E6393662176DA9600E21712"
-            BuildableName = "SwiftApp1.app"
-            BlueprintName = "SwiftApp1"
-            ReferencedContainer = "container:SwiftApp1.xcodeproj">
+            BuildableName = "DreamTracker.app"
+            BlueprintName = "DreamTracker"
+            ReferencedContainer = "container:DreamTracker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E6393662176DA9600E21712"
-            BuildableName = "SwiftApp1.app"
-            BlueprintName = "SwiftApp1"
-            ReferencedContainer = "container:SwiftApp1.xcodeproj">
+            BuildableName = "DreamTracker.app"
+            BlueprintName = "DreamTracker"
+            ReferencedContainer = "container:DreamTracker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E6393662176DA9600E21712"
-            BuildableName = "SwiftApp1.app"
-            BlueprintName = "SwiftApp1"
-            ReferencedContainer = "container:SwiftApp1.xcodeproj">
+            BuildableName = "DreamTracker.app"
+            BlueprintName = "DreamTracker"
+            ReferencedContainer = "container:DreamTracker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

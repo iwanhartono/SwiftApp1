@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SwiftApp1
+//  DreamTracker
 //
 //  Created by Iwan Hartono on 17/10/18.
 //  Copyright © 2018 Iwan Hartono. All rights reserved.
@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let viewcontroller = storyboard.instantiateViewController(withIdentifier: "ViewController")
+//        window?.rootViewController = viewcontroller
+//        window?.makeKeyAndVisible()
+        
         return true
     }
 
