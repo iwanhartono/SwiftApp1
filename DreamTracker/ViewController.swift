@@ -10,9 +10,33 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var labelMain: UILabel!
-    @IBOutlet weak var usernameTextField: UITextField!
-    @IBOutlet weak var passTextField: UITextField!
+    
+    
     @IBOutlet weak var btnLogin: UIButton!
+    @IBOutlet weak var labelFormMessage: UILabel!
+    @IBOutlet weak var barBtnSignUp: UIBarButtonItem!
+    
+    @IBOutlet weak var usernameTextField: UITextField! {
+        didSet {
+            usernameTextField.layer.cornerRadius =  3
+            usernameTextField.layer.borderColor = #colorLiteral(red: 0.8352941176, green: 0.8352941176, blue: 0.8352941176, alpha: 1)
+            usernameTextField.layer.borderWidth = 1
+            let leftView = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 16.0, height: 2.0))
+            usernameTextField.leftView = leftView
+            usernameTextField.leftViewMode = .always
+        }
+    }
+    
+    @IBOutlet weak var passTextField: UITextField! {
+        didSet {
+            passTextField.layer.cornerRadius =  3
+            passTextField.layer.borderColor = #colorLiteral(red: 0.8352941176, green: 0.8352941176, blue: 0.8352941176, alpha: 1)
+            passTextField.layer.borderWidth = 1
+            let leftView = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 16.0, height: 2.0))
+            passTextField.leftView = leftView
+            passTextField.leftViewMode = .always
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,18 +51,21 @@ class ViewController: UIViewController {
         
         self.view.addSubview(viewTest)
         
-        self.btnLogin.backgroundColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
-        self.btnLogin.tintColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        //self.btnLogin.backgroundColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
+        //self.btnLogin.tintColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         self.btnLogin.layer.cornerRadius = 3
+        
+//        let font = UIFont.systemFont(ofSize: 20);
+//        barBtnSignUp.setTitleTextAttributes([FontAttributeName: font], forState:UIControlState.Normal)
     }
     
     @IBAction func btnLogin(_ sender: Any) {
-        labelMain.text = "Login Clicked"
+        labelFormMessage.text = "Please fill Username and Password"
+        
         if let username = usernameTextField.text,
             let pass = passTextField.text,
             !username.isEmpty,
             !pass.isEmpty {
-            
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                 let homeViewController = storyboard.instantiateViewController(withIdentifier: "homeIdentifier")
                 self.present(homeViewController, animated: true, completion: nil)
@@ -57,16 +84,16 @@ class ViewController: UIViewController {
 //        }
     }
 
-    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-        if identifier == "homeSegue" {
-            if let username = usernameTextField.text,
-                let pass = passTextField.text,
-                !username.isEmpty,
-                !pass.isEmpty {
-                    return true
-                }
-        }
-        return false
-    }
+//    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+//        if identifier == "homeSegue" {
+//            if let username = usernameTextField.text,
+//                let pass = passTextField.text,
+//                !username.isEmpty,
+//                !pass.isEmpty {
+//                    return true
+//                }
+//        }
+//        return false
+//    }
 }
 
