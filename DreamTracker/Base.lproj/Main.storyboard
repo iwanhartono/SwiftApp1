@@ -299,8 +299,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iB9-NN-B9O">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="uNK-Gk-Vom"/>
+                                    <tabBarItem systemItem="more" id="bdB-pp-dVc"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iB9-NN-B9O" firstAttribute="centerX" secondItem="VWx-qf-2Pf" secondAttribute="centerX" id="9q4-zM-Od3"/>
+                            <constraint firstItem="iB9-NN-B9O" firstAttribute="trailing" secondItem="VWx-qf-2Pf" secondAttribute="trailing" id="URa-n6-48q"/>
+                            <constraint firstItem="VWx-qf-2Pf" firstAttribute="bottom" secondItem="iB9-NN-B9O" secondAttribute="bottom" id="fi8-wi-0mN"/>
+                            <constraint firstItem="iB9-NN-B9O" firstAttribute="leading" secondItem="VWx-qf-2Pf" secondAttribute="leading" id="rRv-bK-9ef"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VWx-qf-2Pf"/>
                     </view>
                     <navigationItem key="navigationItem" id="wSp-Fg-5KQ"/>
